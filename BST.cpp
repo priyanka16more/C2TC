@@ -61,12 +61,12 @@ class BST
                         else
                             t=t->right;
                     }
-                }//while
-            }//else
+                }
+            }
             std::cin>>no;
-        }//while      
+        }      
         return root;
-    }//createBST
+    }
     
     void preorder(Node *t)
     {
@@ -100,7 +100,7 @@ class BST
 
 
 int main() {
-    // Write C++ code here
+    
     std::cout << "----------------Binary Search Tree--------------- ";
     BST tree;
     std::cout<<"\n";
